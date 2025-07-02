@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Safaricom Support</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+        header { background: #00873c; color: #fff; padding: 1.5rem 0; text-align: center; }
+        nav { background: #00662f; padding: 0.5rem 0; }
+        nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+        .container { max-width: 900px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
+        h2 { color: #00873c; }
+        .faq { margin-bottom: 2rem; }
+        .faq dt { font-weight: bold; margin-top: 1rem; }
+        .faq dd { margin-left: 1rem; margin-bottom: 0.5rem; }
+        form { display: flex; flex-direction: column; gap: 1rem; }
+        label { font-weight: bold; }
+        input, textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #00873c; color: #fff; border: none; padding: 0.75rem; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #00662f; }
+        footer { background: #222; color: #fff; text-align: center; padding: 1rem 0; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Safaricom Support</h1>
+        <p>Your one-stop help center</p>
+    </header>
+    <nav>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#services">Services</a>
+    </nav>
+    <div class="container">
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <dl class="faq">
+                <dt>How do I check my airtime balance?</dt>
+                <dd>Dial <strong>*144#</strong> and follow the prompts.</dd>
+                <dt>How do I contact customer care?</dt>
+                <dd>Call <strong>100</strong> (for prepaid) or <strong>200</strong> (for postpaid) from your Safaricom line.</dd>
+                <dt>How do I register for M-PESA?</dt>
+                <dd>Visit any Safaricom agent with your ID and phone.</dd>
+            </dl>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Mobile Voice & Data</li>
+                <li>M-PESA Mobile Money</li>
+                <li>Home Fibre Internet</li>
+                <li>Customer Support</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Safaricom Support. All rights reserved. Designed by Bonface Wanga
+    </footer>
+</body>
+</html>
